@@ -27,5 +27,5 @@ actions:
       script: >
         var t = items.getItem("ESP32__BMP280_Temperature").state.toString();
         actions.get("telegram","telegram:telegramBot:83bd9d266f")
-          .sendTelegram("⏰🔥 Przypomnienie: nadal jest powyżej 30°C! Teraz: " + t + " 🔥⏰");
+          .sendTelegram("⏰🔥 Reminder: It's still above 30°C! Now: " + t + " 🔥⏰");
     type: script.ScriptAction

@@ -27,7 +27,7 @@ actions:
       script: >
         var t = items.getItem("ESP32__BMP280_Temperature").state.toString();
         actions.get("telegram","telegram:telegramBot:83bd9d266f")
-          .sendTelegram("🔥⚠️ Uwaga! Temperatura przekroczyła 30°C. Obecnie wynosi: " + t + " ⚠️🔥");
+          .sendTelegram("🔥⚠️ Attention! The temperature exceeded 30°C. Currently it is: " + t + " ⚠️🔥");
     type: script.ScriptAction
   - inputs: {}
     id: "5"

@@ -10,7 +10,7 @@ conditions:
     configuration:
       itemName: ESP32__BMP280_Temperature
       operator: <
-      state: "29.5"
+      state: "29.8"
     type: core.ItemStateCondition
 actions:
   - inputs: {}
