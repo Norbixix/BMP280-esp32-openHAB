@@ -38,6 +38,8 @@ The system includes 3 simple temperature alert rules:
 3. Resets the alert when temperature drops below 29.5°C
 This prevents repeated notifications and adds simple hysteresis.
 
+By default, the program sends measurements every 5 minutes, but you can change this in the code by changing the value of #define SLEEP_SECONDS
+
 Power Saving
 After sending data, the ESP32 enters deep sleep mode to reduce power consumption.
 
